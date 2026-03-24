@@ -2,30 +2,19 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" type="image" href="../images/logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Git & GitHub Crash Course!</title>
-    <link rel="stylesheet" href="styles.css" />
+    <base href="/" />
+    <!-- Load a font called Roboto from Google Fonts. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <section>
-      <header>
-        <img
-          id="logo"
-          src="logo.png"
-          alt="A logo that contains the word 'Git'"
-        />
-        <h1>Git & GitHub Crash Course</h1>
-      </header>
-      <main>
-        <p>Because the basics are important!</p>
-        <p>
-          Learn more about Git in the
-          <a href="https://git-scm.com/book/en/v2">official docs</a>
-          or
-          <a href="https://acad.link/git">our course</a>.
-        </p>
-      </main>
-    </section>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
